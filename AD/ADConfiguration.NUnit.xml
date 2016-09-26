@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="26" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-09-24" time="14:14:51">
+  <environment user="Irwin" machine-name="IRWINS-NB" cwd="C:\scripts" user-domain="IRWINS-NB" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk0\Partition2" nunit-version="2.5.8.0" os-version="10.0.14393" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Powershell" name="Pester" executed="True" result="Success" success="True" time="0.7587" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="Active Directory Forest operational readiness" executed="True" result="Success" success="True" time="0.1137" asserts="0" description="Active Directory Forest operational readiness">
+        <results>
+          <test-case description="Forest FQDN pshirwin.local" name="Active Directory Forest operational readiness.Forest FQDN pshirwin.local" time="0.0736" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="ForestMode Windows2012R2Forest" name="Active Directory Forest operational readiness.ForestMode Windows2012R2Forest" time="0.0064" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Server DC-DSC-01.pshirwin.local is a GlobalCatalog" name="Active Directory Forest operational readiness.Server DC-DSC-01.pshirwin.local is a GlobalCatalog" time="0.0336" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Active Directory Domain operational readiness" executed="True" result="Success" success="True" time="0.2825" asserts="0" description="Active Directory Domain operational readiness">
+        <results>
+          <test-case description="Total Domain Controllers 1" name="Active Directory Domain operational readiness.Total Domain Controllers 1" time="0.1267" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="DomainController DC-DSC-01 exists" name="Active Directory Domain operational readiness.DomainController DC-DSC-01 exists" time="0.0093" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="DNSRoot pshirwin.local" name="Active Directory Domain operational readiness.DNSRoot pshirwin.local" time="0.0088" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="NetBIOSName PSHIRWIN" name="Active Directory Domain operational readiness.NetBIOSName PSHIRWIN" time="0.0065" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="DomainMode Windows2012R2Domain" name="Active Directory Domain operational readiness.DomainMode Windows2012R2Domain" time="0.0936" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="DistinguishedName DC=pshirwin,DC=local" name="Active Directory Domain operational readiness.DistinguishedName DC=pshirwin,DC=local" time="0.0094" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Server DC-DSC-01.pshirwin.local is RIDMaster" name="Active Directory Domain operational readiness.Server DC-DSC-01.pshirwin.local is RIDMaster" time="0.011" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Server DC-DSC-01.pshirwin.local is PDCEmulator" name="Active Directory Domain operational readiness.Server DC-DSC-01.pshirwin.local is PDCEmulator" time="0.01" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Server DC-DSC-01.pshirwin.local is InfrastructureMaster" name="Active Directory Domain operational readiness.Server DC-DSC-01.pshirwin.local is InfrastructureMaster" time="0.0073" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Active Directory Password Policy operational readiness" executed="True" result="Success" success="True" time="0.173" asserts="0" description="Active Directory Password Policy operational readiness">
+        <results>
+          <test-case description="ComplexityEnabled" name="Active Directory Password Policy operational readiness.ComplexityEnabled" time="0.078" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Password History count" name="Active Directory Password Policy operational readiness.Password History count" time="0.0129" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Lockout Threshold equals 0" name="Active Directory Password Policy operational readiness.Lockout Threshold equals 0" time="0.028" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Lockout duration equals 00:30:00" name="Active Directory Password Policy operational readiness.Lockout duration equals 00:30:00" time="0.0201" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Lockout observation window equals 00:30:00" name="Active Directory Password Policy operational readiness.Lockout observation window equals 00:30:00" time="0.0128" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Min password age equals 1.00:00:00" name="Active Directory Password Policy operational readiness.Min password age equals 1.00:00:00" time="0.0111" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Max password age equals 42.00:00:00" name="Active Directory Password Policy operational readiness.Max password age equals 42.00:00:00" time="0.0101" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Active Directory Sites,Sitelinks &amp; Subnets operational readiness" executed="True" result="Success" success="True" time="0.1895" asserts="0" description="Active Directory Sites,Sitelinks &amp; Subnets operational readiness">
+        <results>
+          <test-case description="Site Default-First-Site-Name" name="Active Directory Sites,Sitelinks &amp; Subnets operational readiness.Site Default-First-Site-Name" time="0.0772" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Site Branch01" name="Active Directory Sites,Sitelinks &amp; Subnets operational readiness.Site Branch01" time="0.0104" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Sitelink DEFAULTIPSITELINK" name="Active Directory Sites,Sitelinks &amp; Subnets operational readiness.Sitelink DEFAULTIPSITELINK" time="0.0424" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Sitelink DEFAULTIPSITELINK costs 100" name="Active Directory Sites,Sitelinks &amp; Subnets operational readiness.Sitelink DEFAULTIPSITELINK costs 100" time="0.0082" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Sitelink DEFAULTIPSITELINK replication interval 180" name="Active Directory Sites,Sitelinks &amp; Subnets operational readiness.Sitelink DEFAULTIPSITELINK replication interval 180" time="0.006" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Subnet 192.168.0.0/24" name="Active Directory Sites,Sitelinks &amp; Subnets operational readiness.Subnet 192.168.0.0/24" time="0.0389" asserts="0" success="True" result="Success" executed="True" />
+          <test-case description="Site CN=Branch01,CN=Sites,CN=Configuration,DC=pshirwin,DC=local" name="Active Directory Sites,Sitelinks &amp; Subnets operational readiness.Site CN=Branch01,CN=Sites,CN=Configuration,DC=pshirwin,DC=local" time="0.0063" asserts="0" success="True" result="Success" executed="True" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
